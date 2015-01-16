@@ -26,4 +26,8 @@ Commands ran to build this application :
 - git branch -b modify-README
 - git mv README.rdoc README.md
 - modify README.md
--
+- git checkout master
+- git merge modify-README
+
+-- pushing to heroku
+- 
