@@ -30,4 +30,14 @@ Commands ran to build this application :
 - git merge modify-README
 
 -- pushing to heroku
-- 
+- modify Gemfile to add pg module and a heroku specific module for rails
+- bundle install --without production
+- update Gemfile to github
+- heroku version # to make sure heroku is installed
+- heroku login
+- heroku keys:add #to make sure keys are added. not required again
+- heroku create # to create a new project area inside heroku
+- git push heroku master
+- deployed here : https://powerful-crag-4952.herokuapp.com/ 
+
+-- DONE. 
